@@ -1,0 +1,747 @@
+*{
+	margin:0px;padding:0px;
+	text-decoration: none;
+	list-style:none;
+}
+
+/* 背景图片 */
+#beijing{
+    width: 100%;
+    height: 380px;
+    /* border:1px solid red; */
+    background: url(../../img/o_1d5r6cgq41s6jgqbc9nv651dna9.jpg) no-repeat top center;
+    overflow: hidden;
+}
+
+#crumbs{
+    width: 1200px;
+    height: 12px;
+    /* border:1px solid red; */
+    font-size: 12px;
+    color:rgb(153,153,153);
+    font-family:"宋体";
+    margin: 19px auto;
+}
+
+#crumbs a{
+    color:#999;
+}
+
+#crumbs a:hover{
+    color: red;
+}
+
+#crumbs span{
+    color:#666;
+}
+
+/* 第一部分 */
+#d1{
+    width: 1200px;
+    /* border:1px solid red; */
+    margin: auto;
+}
+
+/* <!-- 婚前必看  备婚中  举行婚礼 --> */
+#d1_h{
+    width: 950px;
+    height: 268px;
+    float: left;
+    background: url(../../img/o_1cijo9ts114rpiio40913ev1o9fm.png);
+    margin-top: 21px;
+    box-shadow:0 5px 20px 4px rgba(0,0,0,0.04);
+    border-radius: 6px;
+}
+
+/* 电子请帖 */
+#dianzi img{
+    width: 240px;
+    height: 268px;
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+#dianzi img:hover{
+    opacity:0.85;
+}
+
+/* <!-- 结婚必看 --> */
+.hqbk{
+    width: 264px;
+    height: 234px;
+    /* border:1px solid red; */
+    float: left;
+    margin-left: 44px;
+}
+
+.hqbk dt{
+    width: 100%;
+    font-size:24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+.hqbk dd{
+    width: 264px;
+    margin-top:40px ;
+}
+
+.hqbk dd a{
+    width: 64px;
+    line-height: 40px;
+    float: left;
+    margin-right: 24px;
+    color:#333;
+    font-size:16px;
+}
+
+.hqbk dd a:hover{
+    color:red;
+}
+
+/* <!-- 备婚中 --> */
+.bhz{
+    width: 264px;
+    height: 234px;
+    /* border:1px solid red; */
+    float: left;
+    margin-left: 44px;
+}
+
+.bhz dt{
+    width: 100%;
+    font-size:24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+.bhz dd{
+    width: 264px;
+    margin-top:40px ;
+}
+
+.bhz dd a{
+    width: 64px;
+    line-height: 40px;
+    float: left;
+    margin-right: 24px;
+    color:#333;
+    font-size:16px;
+}
+
+.bhz dd a:hover{
+    color:red;
+}
+
+/* <!-- 举行婚礼--> */
+.jxhl{
+    width: 264px;
+    height: 234px;
+    /* border:1px solid red; */
+    float: left;
+    margin-left: 44px;
+}
+
+.jxhl dt{
+    width: 100%;
+    font-size:24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+.jxhl dd{
+    width: 264px;
+    margin-top:40px ;
+}
+
+.jxhl dd a{
+    width: 64px;
+    line-height: 40px;
+    float: left;
+    margin-right: 24px;
+    color:#333;
+    font-size:16px;
+}
+
+.jxhl dd a:hover{
+    color:red;
+}
+
+/* <!-- 大家都在看 --> */
+#dajiakan{
+    width: 1200px;
+    height: 40px;
+    /* border:1px solid red; */
+    margin: auto;
+    font-size:14px;
+    margin-bottom: 64px;
+}
+
+#dajiakan span{
+    float: left;
+    line-height: 16px;
+    border-right: 1px solid #ccc;
+    font-size:14px;
+    width: 110px;
+    margin-top: 7px;
+}
+
+#dajiakan span i{
+    width: 16px;
+    height: 16px;
+    background-image: url(../../img/o_1cv7oavb5k1m30l1nqi1urg13ue1o.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+.d2{
+    line-height: 16px;
+    display: flex;
+    flex-wrap:wrap;
+    padding-left: 6px;
+}
+
+.d2 a{
+    display:inline-block;
+    line-height: 16px;
+    color:#333;
+    flex:1;
+}
+
+.d2 a:hover{
+    color:red;
+}
+/* ---------------------------------------- */
+
+.d2 .bg{
+    background: #F5F5F5;
+    height: 30px;
+    line-height: 30px;
+    border-radius:15px;
+    padding:0 16px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 86px;
+}
+
+/* ------------------------------------------- */
+
+.d2 .bg1{
+    background: #F5F5F5;
+    height: 30px;
+    line-height: 30px;
+    border-radius:15px;
+    padding:0 16px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+/* ------------------------------------------- */
+
+.d2 .bg2{
+    background: #F5F5F5;
+    height: 30px;
+    line-height: 30px;
+    border-radius:15px;
+    padding:0 16px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 56px;
+}
+
+/* ------------------------------------------- */
+
+.d2 .bg3{
+    background: #F5F5F5;
+    height: 30px;
+    line-height: 30px;
+    border-radius:15px;
+    padding:0 16px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 69px;
+}
+
+.d2 .bg3 a i{
+    margin-left: 6px;
+    background-image: url(../../img/o_1d5mcc04kd1i9e3rgtvgs1buk17.png);
+    width: 7px;
+    height: 12px;
+    background-size:cover;
+    vertical-align: middle;
+    margin-top: 2px;
+    float: right;
+}
+
+/* <!-- 第三部分  --> */
+#d3{
+    width: 1200px;
+    margin: auto;
+    /* border:1px solid red; */
+    padding-bottom: 64px;
+    height: 292px;
+    position: relative;
+}
+
+#d3 .biaoti{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#d3 .biaoti li{
+    padding-bottom: 10px;
+}
+
+#d3 .biaoti .biaoti_a1:hover{
+    border-bottom: 2px solid #f00;
+}
+
+#d3 .biaoti a{
+    font-size: 20px;
+    font-weight: bold;
+    color:#333;
+}
+
+#d3 .biaoti a:hover{
+    color:red;
+}
+
+/* 婚前事宜 */
+.hunqian{
+    width: 1200px;
+    height: 240px;
+    /* border:1px solid red; */
+    position:absolute;
+    top:52px;left:0px;
+    display: flex;
+}
+
+.hunqian li{
+    width: 285px;
+    float: left;
+    margin-right: 20px;
+}
+
+.hunqian_tu{
+    margin-right: 20px;
+}
+
+.hunqian a{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.hunqian a:hover{
+    color:red;
+}
+
+.hunqian li img{
+    margin-bottom: 14px;
+}
+
+.hunqian li img:hover{
+    opacity:.85;
+}
+
+.hunqian_a{
+    line-height: 24px;
+    color:#000;
+    font-size: 14px;
+}
+
+/* 拍婚纱照 */
+
+
+
+/* <!-- 第四部分 精选文章  最新文章 --> */
+#d4{
+    width: 1200px;
+    height: 4702px;
+    /* border:1px solid red; */
+    margin: auto;
+}
+
+/* <!-- 精选文章 --> */
+.d4_jxwz{
+    width: 820px;
+    height: 4702px;
+    /* border:1px solid #000; */
+    float: left;
+}
+
+.d4_jxwz_k{
+    width: 820px;
+    height: 4126px;
+    /* border:1px solid #fe7e33; */
+    float: left;
+}
+
+.d4_jxwz_k ul{
+    width: 100%;
+    height: 174px;
+    float: left;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.d4_jxwz_p{
+    display: flex;
+    width: 820px;
+    /* border:1px solid blue; */
+}
+
+.d4_jxwz_k_a{
+    padding-bottom: 10px;
+    margin-right: 60px;
+    margin-bottom: 2px;
+    width: 80px;
+    height: 24px;
+    border-bottom: 2px solid #f00;
+    float: left;
+}
+
+.d4_jxwz_k_a a{
+    font-size:20px;
+    line-height: 24px;
+    font-weight: bold;
+    color:red;
+}
+
+/* 最新文章 */
+.d4_jxwz_k_a2{
+    padding-bottom: 10px;
+    margin-right: 60px;
+    margin-bottom: 2px;
+    width: 80px;
+    height: 24px;
+    float: left;
+}
+
+.d4_jxwz_k_a2 a{
+    font-size:20px;
+    line-height: 24px;
+    font-weight: bold;
+    color:#333;
+}
+
+/* 精选文章下的内容 */
+.d4_jxwz_k_ul1{
+    width: 820px;
+    height: 174px;
+    /* border:1px solid blue; */
+    margin-top: 30px;
+}
+
+.d4_jxwz_k ul:nth-child(2){
+    margin-top: 20px;
+}
+
+.d4_jxwz_k_ul1 .li1{
+    width: 230px;
+    height: 144px;
+    float: left;
+    margin-right: 30px;
+    /* border:1px solid blue; */
+}
+
+.d4_jxwz_k_ul1 .li1 img{
+    vertical-align: middle;
+}
+
+.d4_jxwz_k_ul1 a{
+    font-style: normal;
+}
+
+.d4_jxwz_k_ul1 .li1 img:hover{
+    opacity:0.85;
+}
+
+.d4_jxwz_k_ul1 .li2{
+    width: 556px;
+    height: 24px;
+    /* border:1px solid blue; */
+    float: left;
+}
+
+.d4_jxwz_k_ul1 .li2 .a1{
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-right: 12px;
+    border-radius:3px;
+    float: left;
+    font-size: 12px;
+    color:#fff;
+    text-align: center;
+    background: #fe7e33;
+}
+
+.d4_jxwz_k_ul1 .li2 .a1:hover{
+    opacity:0.85;
+}
+
+.a1_h3{
+    width: 450px;
+    float: left;
+    line-height: 24px;
+    font-size: 20px;
+    color:#000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.d4_jxwz_k_ul1 .li2 .a1_h3:hover{
+    color:#f00;
+}
+
+.d4_jxwz_k_ul1 .li3{
+    color:#666;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    width: 556px;
+    height: 14px;
+    /* border:1px solid blue; */  
+    float: left; 
+}
+
+.li3 i{
+    font-style: normal;
+}
+
+.li3 span{
+    float: right;
+    width: 61px;
+}
+
+.li3 em{
+    float: right;
+    margin-right: 5px;
+}
+
+.li3 i{
+    width: 16px;
+    height: 14px;
+}
+
+.d4_jxwz_k_ul1 .li4{
+    width: 556px;
+    line-height: 24px;
+    margin-top: 12px;
+    float: left;
+    /* border:1px solid blue; */
+    margin-bottom: 12px;
+    font-style: normal;
+}
+
+.d4_jxwz_k_ul1 .li4 a{
+    font-size: 14px;
+    color:#000;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical; */
+}
+
+.d4_jxwz_k_ul1 .li5{
+    display: flex;
+    width: 556px;
+    /* border:1px solid blue; */
+    margin-top: 12px;
+    font-style: normal;
+}
+
+.d4_jxwz_k_ul1 .li5 img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.li5_d{
+    display: flex;
+    align-items: center;
+    background: #EBF9FF;
+    border-radius: 10px;
+    height: 20px;
+    padding: 0 7px 0 2px;
+    margin-right: 12px;
+}
+
+.li5_d a{
+    font-size: 12px;
+    color: #13ACEC;
+    text-decoration: none;
+}
+
+/* 页码 */
+.pages{
+    padding-top: 48px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    padding-bottom: 72px;
+    /* border:1px solid blue; */
+}
+
+.pages ul a{
+    line-height: 34px;
+    min-width: 34px;
+    display: inline-block;
+    margin-left: -1px;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    color: #666;
+    font-size: 13px;
+}
+
+.pages ul a:nth-child(1){
+    background: #F83244;
+    color: #fff;
+    border: 1px solid #F83244;
+    z-index: 1;
+}
+
+.prev{
+    width: 78px;
+    height: 34px;
+    border: 1px solid #e7e7e7;
+    line-height: 34px;
+    color: #666;
+}
+
+.pages ul a:hover{
+    color:red;
+}
+
+.pages ul a:nth-child(1):hover{
+    color: #fff;
+}
+
+/* <!-- 猜你想找 --> */
+
+
+/* <!-- 第四部分  右边部分  近期热门top榜--> */
+#d4_top{
+    width: 320px;
+    /* border:1px solid #f00; */
+    float: right;
+}
+
+.d4_top_a:hover{
+    opacity:0.85;
+}
+
+.d4_top_d{
+    margin-top: 40px;
+    width: 100%;
+    height: 427px;
+    /* border:1px solid #fe7e33; */
+}
+
+.d4_top_d h3{
+    font-size:24px;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+}
+
+.d4_top_d ul{
+    box-shadow: 0px 4px 28px rgba(0,0,0,0.12);
+    border-radius: 6px;
+    padding: 24px 20px;
+    height: 335px;
+}
+
+.d4_top_d ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.d4_top_d_span{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFF;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #F83244;
+}
+
+.d4_top_d_span2{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFF;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #FE7E33;
+}
+
+.d4_top_d_span3{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFF;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #FEAF24;
+}
+
+.d4_top_d_span4{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFF;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #FFD31B;
+}
+
+.d4_top_d_a{
+    width: 178px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 16px 0 10px;
+    font-size: 14px;
+}
+
+.d4_top_d_span5{
+    display: flex;
+    font-size: 12px;
+    color: #666;
+}
+
+.d4_top_d_span5 i{
+    font-style: normal;
+}
+
+.d4_top_d a:hover{
+    color:red;
+}
